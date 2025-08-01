@@ -9,7 +9,7 @@ import sys
 from spack.operating_systems.mac_os import macos_version
 from spack_repo.builtin.build_systems.cmake import CMakePackage
 
-from spack import *
+from spack.package import *
 
 # Trilinos is complicated to build, as an inspiration a couple of links to
 # other repositories which build it:
